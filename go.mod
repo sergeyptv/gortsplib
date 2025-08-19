@@ -3,6 +3,7 @@ module github.com/sergeyptv/gortsplib/v4
 go 1.24.0
 
 require (
+	github.com/bluenviron/gortsplib/v4 v4.16.2
 	github.com/bluenviron/mediacommon/v2 v2.4.1
 	github.com/google/uuid v1.6.0
 	github.com/pion/rtcp v1.2.15

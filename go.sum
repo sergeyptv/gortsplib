@@ -2,6 +2,8 @@ github.com/asticode/go-astikit v0.30.0 h1:DkBkRQRIxYcknlaU7W7ksNfn4gMFsB0tqMJflx
 github.com/asticode/go-astikit v0.30.0/go.mod h1:h4ly7idim1tNhaVkdVBeXQZEE3L0xblP7fCWbgwipF0=
 github.com/asticode/go-astits v1.13.0 h1:XOgkaadfZODnyZRR5Y0/DWkA9vrkLLPLeeOvDwfKZ1c=
 github.com/asticode/go-astits v1.13.0/go.mod h1:QSHmknZ51pf6KJdHKZHJTLlMegIrhega3LPWz3ND/iI=
+github.com/bluenviron/gortsplib/v4 v4.16.2 h1:10HaMsorjW13gscLp3R7Oj41ck2i1EHIUYCNWD2wpkI=
+github.com/bluenviron/gortsplib/v4 v4.16.2/go.mod h1:Vm07yUMys9XKnuZJLfTT8zluAN2n9ZOtz40Xb8RKh+8=
 github.com/bluenviron/mediacommon/v2 v2.4.1 h1:PsKrO/c7hDjXxiOGRUBsYtMGNb4lKWIFea6zcOchoVs=
 github.com/bluenviron/mediacommon/v2 v2.4.1/go.mod h1:a6MbPmXtYda9mKibKVMZlW20GYLLrX2R7ZkUE+1pwV0=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
