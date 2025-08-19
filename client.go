@@ -1446,6 +1446,7 @@ func (c *Client) doDescribe(u *base.URL) (*description.Session, *base.Response, 
 	var ssd sdp.SessionDescription
 	err = ssd.Unmarshal(res.Body)
 	if err != nil {
+		log.Println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
 		return nil, nil, liberrors.ErrClientSDPInvalid{Err: err}
 	}
 

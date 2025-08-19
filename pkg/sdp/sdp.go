@@ -4,7 +4,6 @@ package sdp
 import (
 	"errors"
 	"fmt"
-	"log"
 	"net/url"
 	"strconv"
 	"strings"
@@ -88,7 +87,6 @@ func stringsReverseIndexByte(s string, b byte) int {
 // This is rewritten from scratch to make it compatible with most RTSP
 // implementations.
 func (s *SessionDescription) unmarshalOrigin(value string) error {
-	log.Println(value)
 	value = strings.Replace(value, " IN IPV4 ", " IN IP4 ", 1)
 
 	if strings.HasSuffix(value, " IN") {
