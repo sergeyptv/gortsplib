@@ -4,6 +4,7 @@ package sdp
 import (
 	"errors"
 	"fmt"
+	"log"
 	"net/url"
 	"strconv"
 	"strings"
@@ -720,6 +721,7 @@ func (s *SessionDescription) Unmarshal(byts []byte) error {
 			}
 
 		case stateSession:
+			log.Println("stateSession")
 			err := s.unmarshalSession(&state, key, val)
 			if err != nil {
 				return err
